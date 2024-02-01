@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>questionário</title>
+</head>
+<body>
+    <header>
+        <h1>Questionário</h1>
+        <p>Complete suas informações</p>
+    </header>
+    <main>
+        <form >
+            <fieldset>
+                <div>
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div>
+                    <label>Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            </fieldset>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label>O seu trabalho te estressa?</label>
+                <label>
+                    <input type="radio" name="humor" value="nao">Não 
+                </label>
+                <label>
+                    <input type="radio" name="humor" value="um pouco">Um pouco 
+                </label>    
+                <label>
+                    <input type="radio" name="humor" value="sim">Sim 
+                </label>            
+                <label>
+                    <input type="radio" name="humor" value="muito">Muito 
+                </label>
+            </div>
+
+            <div>
+                <label>De 0 a 5, o quanto você gosta do seu trabalho</label>
+                <label>
+                    <input type="radio" name="metrica" value="0">0 
+                </label><label>
+                    <input type="radio" name="metrica" value="1">1 
+                </label>
+                <label>
+                    <input type="radio" name="metrica" value="2">2 
+                </label>
+                <label>
+                    <input type="radio" name="metrica" value="3">3
+                </label>
+                <label>
+                    <input type="radio" name="metrica" value="4">4 
+                </label><label>
+                    <input type="radio" name="metrica" value="5">5 
+                </label>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
