@@ -30,6 +30,7 @@
 body {
     background-color: var(--cor2));
     font-family: var(--fonte-padrao);
+    
 }
 
 a.externo::after {
